@@ -51,7 +51,7 @@ export default {
       });
     },
     clearAllTodo() {
-      this.todoList.filter((todo) => {
+      this.todoList = this.todoList.filter((todo) => {
         return !todo.done;
       });
     },
